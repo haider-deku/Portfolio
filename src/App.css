@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+*{
+    text-decoration: none;
+    font-family: 'Quicksand', sans-serif;
+    scroll-behavior: smooth;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  color:chocolate  ;  
+}
+Nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 50%;
+}
+.about .part1 .desc h2{
+    font-size: 2em;
+    font-weight: 500;
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: column;
+    color: chocolate;
+}
+.about .part1 .desc h2 span{
+    font-size: 0.5em;
+    font-weight: 500;
+    margin: 0 3em;
+    text-transform: capitalize;
+}
+a{
+    cursor: pointer;
+    font-size: 0.9em;
+    transition: 0.5s ease all;
+    text-decoration: none;
+    color:white;
+}
+a:hover{
+  font-size: 1.1em;
+}
+.about{
+  width: fit-content;
+}
+.about .part1{
+  display:flex;
+  justify-content: space-evenly;
+  height: 30em;
+}
+.about .part2{
+  display:flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: rgb(0, 0, 0);
+  height: 3em;
+}
+.about .desc{
+  background-color: black;
+  padding: 3em;
+  color: chocolate;
+}
+.about img{
+  height: 30em;
+  width: 100%;
+}
+.info{
+  background-color: rgb(51, 51, 51);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30em;
+  box-sizing: border-box;
+}
+.me{
+  text-align: center;
+  padding: 3em;
+  background-color: rgb(188, 188, 188);
+}
+.educ{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.bac,.uni{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 50em;
+
+}
+.Exp{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(188, 188, 188);
+}
+.lib,.sio,.igc{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.expr{
+  width: 50em;
+}
+.cont{
+  width: 40em;
+}
+#skils{
+    width: 60%;
+    margin: 0 auto ;
+    padding: 2em;
+}
+.comp{
+    display:flex;
+    flex-flow: row wrap;
+    margin-bottom: 10px;
+}
+.comp p{
+    flex: 0 0 40%;
+}
+.conteneur-barre{
+    flex: 0 0 60%;
+    border-radius: 5px;
+    background-color: rgb(206, 202, 202);
+    border-bottom: 1px ridge grey;
+}
+.barre{
+    display: block;
+    height: 100%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.c85{
+    width: 85%;
+    background-color: #182153;
+}
+.c20{
+    width: 20%;
+    background-color: #182153;
+}
+.c60{
+    width: 60%;
+    background-color: #182153;
+}
+.c45{
+    width: 45%;
+    background-color: #182153;
+}
+.c50{
+    width: 50%;
+    background-color: #182153;
+}
+.c70{
+    width: 70%;
+    background-color: #182153;
+    border-radius: 5px;
+}
+
+
+.skill{
+  text-align: center;
+}
+.contact{
+  text-align: center;
+  
+}
+.Contact{
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-evenly;
+  height: 27em;
+}
+.Contact .p2{
+  width: 30%;
+  display: flex ;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.Contact .p2 .desc{
+    background-color: gainsboro;
+    height: 17em;
+
+}
+.Contact .p2 .link {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: gainsboro;
+  height: 35%;
+}
+.Contact .p2 .link a{
+  color: black;
+}
+form{
+  width: 30em;
+}
+.Contact .l1{
+  display: flex;
+  justify-content: space-between;
+}
+.Contact .l1 input{
+  width: 14em;
+    border: none;
+    outline: none;
+    color: #182153;
+    font-size: 1em;
+    border-radius: 0.5em;
+    height: 2em;
+}
+.Contact .ad input{
+  width: 98.5%;
+    border: none;
+    outline: none;
+    color: #182153;
+    font-size: 1.1em;
+    border-radius: 0.5em;
+    height: 2em;
+}
+.Contact .mess textarea{
+  width: 100%;
+  height: 15em;
+  resize: none;
+  outline: none;
+  border-radius: 1em;
+  border: none;
+  padding:  1em;
+  box-sizing: border-box;}
+.Contact .form{
+  background-color: gainsboro;
+  width: 68% ;
+  display: flex;
+  justify-content: center;
+}
+
+footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10em;
+  font-size:larger;
+  background-color: black;
+  color: chocolate;
+}
+button{
+   padding: 1em 2em;
+   background-color: chocolate;
+   border: none;
+   color: #F0F0F0;
+   border-radius: 1000px;
+}
+button {
+  padding: 1em 4em;
+  background-color: #999999;
+  border: none;
+  color: #f0f0f0;
+  border-radius: 1000px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  position: relative; /* Needed for ::after positioning */
+  overflow: hidden;
+  cursor: pointer;
+}
+
+button::after {
+  content: '';
+  position: absolute;
+  height: 108%;
+  width: 102%;
+  border-radius: 1000px;
+  background-image: linear-gradient(to bottom right, #c1d51085, #ff0000bb);
+  z-index: -1;
+  top: 0;
+  left: 0;
+}
+
+button:hover {
+  z-index: 0;
+  box-shadow: 4px 0 10px #fff70185, -4px 0 10px #ff2f00bb;
+}
