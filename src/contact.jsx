@@ -67,7 +67,7 @@ export default function Contact() {
                         <p><span>Adresse :</span> <br/> Megrine Cheker N=°4 <br/> 2024 BenArous, Tunis</p>
                 </div>
                 <div className="link">
-                            <a href="https://github.com/haider-deku" target="_blank">
+                            <a href="https://github.com/haider-deku" target="_blank" rel="noreferrer">
                                     <svg
       xmlns="http://www.w3.org/2000/svg"
       x="0px"
