@@ -1,5 +1,4 @@
 import React from "react";
-import { useState } from "react";
 export default function Contact() { 
   const [result, setResult] = React.useState("");
 
