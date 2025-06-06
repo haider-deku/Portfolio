@@ -99,7 +99,7 @@ export default function Contact() {
       </g>
     </svg>
                             </a>
-                            <a href="https://www.linkedin.com/in/haider-youzbechi-8b69bb241" target="_blank" rel="noopener noreferrer"> 
+                            <a href="https://www.linkedin.com/in/haider-youzbechi-8b69bb241" target="_blank" rel="noreferrer"> 
                                 <svg
   xmlns="http://www.w3.org/2000/svg"
   x="0px"
